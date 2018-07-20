@@ -1,0 +1,25 @@
+listen:
+  port: 9006
+
+webserver:
+  hostname: 'localhost'
+  port: 9006
+
+database:
+  suffix: '_test6'
+
+# From the project root directory
+storage:
+  avatars: 'test6/avatars/'
+  videos: 'test6/videos/'
+  logs: 'test6/logs/'
+  previews: 'test6/previews/'
+  thumbnails: 'test6/thumbnails/'
+  torrents: 'test6/torrents/'
+  cache: 'test6/cache/'
+
+admin:
+  email: 'admin6@example.com'
+
+transcoding:
+  enabled: false
